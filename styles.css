@@ -464,6 +464,17 @@ a:hover {
   color: var(--text);
 }
 
+.ec-legal-links {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--text-muted, #888);
+}
+
+.ec-legal-links a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .ec-features-grid {
