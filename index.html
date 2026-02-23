@@ -1,134 +1,15 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Softprime Solutions - Custom Software Development</title>
-    <meta
-      name="description"
-      content="Professional mobile and web application development services by Softprime Solutions Concept S.R.L., based in Iași, Romania."
-    />
-    <style>
-      :root {
-        --primary: #007aff;
-        --dark: #1d1d1f;
-        --light: #f5f5f7;
-        --text: #424245;
-      }
-
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Helvetica, Arial, sans-serif;
-        line-height: 1.6;
-        color: var(--text);
-        margin: 0;
-        padding: 0;
-      }
-
-      header {
-        background: #fff;
-        border-bottom: 1px solid #d2d2d7;
-        padding: 1rem 0;
-      }
-
-      .container {
-        max-width: 980px;
-        margin: 0 auto;
-        padding: 0 20px;
-      }
-
-      nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-
-      .logo {
-        font-weight: 700;
-        font-size: 1.25rem;
-        color: var(--dark);
-        text-decoration: none;
-      }
-
-      .hero {
-        background: var(--light);
-        padding: 4rem 0;
-        text-align: center;
-      }
-
-      .hero h1 {
-        font-size: 2.5rem;
-        color: var(--dark);
-        margin-bottom: 1rem;
-      }
-
-      .hero p {
-        font-size: 1.25rem;
-        max-width: 600px;
-        margin: 0 auto;
-      }
-
-      .section {
-        padding: 3rem 0;
-        border-bottom: 1px solid #e5e5e5;
-      }
-
-      h2 {
-        color: var(--dark);
-        margin-bottom: 1.5rem;
-      }
-
-      .grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 2rem;
-      }
-
-      .card {
-        background: #fff;
-        padding: 1.5rem;
-        border-radius: 8px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-      }
-
-      footer {
-        background: var(--dark);
-        color: #86868b;
-        padding: 2rem 0;
-        font-size: 0.8rem;
-      }
-
-      .footer-content {
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-      }
-
-      @media (min-width: 768px) {
-        .footer-content {
-          flex-direction: row;
-          justify-content: space-between;
-          text-align: left;
-        }
-        .legal-details {
-          text-align: right;
-        }
-      }
-
-      .legal-info p {
-        margin: 0.25rem 0;
-      }
-      
-      a {
-        color: var(--primary);
-        text-decoration: none;
-      }
-
-      a:hover {
-        text-decoration: underline;
-      }
-    </style>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Softprime Solutions - Custom Software Development</title>
+  <meta
+    name="description"
+    content="Professional mobile and web application development services by Softprime Solutions Concept S.R.L., based in Romania."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
   <body>
     <header>
       <div class="container">
@@ -153,9 +34,9 @@
         <h2>Our Services</h2>
         <div class="grid">
           <div class="card">
-            <h3>Custom Software (6201)</h3>
+            <h3>Software Development</h3>
             <p>
-              We specialize in client-oriented software development, delivering
+              We specialize in software development, delivering
               bespoke solutions tailored to specific business needs.
             </p>
           </div>
@@ -179,10 +60,23 @@
 
     <section class="section">
       <div class="container">
+        <h2>Our Apps</h2>
+        <div class="grid">
+          <a href="/easy-cals/" class="app-card card">
+            <img src="/assets/easy-cals/icon.svg" alt="Easy Cals icon" class="app-icon" />
+            <h3>Easy Cals</h3>
+            <p>Simple, no-fuss calorie tracking for iPhone.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
         <h2>Corporate Information</h2>
         <p>
           <strong>SOFTPRIME SOLUTIONS CONCEPT S.R.L.</strong> is a registered
-          software development company based in Iași, Romania. We are committed to
+          software development company based in Romania. We are committed to
           delivering enterprise-grade software solutions while adhering to strict
           European data privacy and security standards.
         </p>
@@ -194,20 +88,7 @@
       </div>
     </section>
 
-    <footer>
-      <div class="container">
-        <div class="footer-content">
-          <div class="legal-info">
-            <p>© 2026 SOFTPRIME SOLUTIONS CONCEPT S.R.L.</p>
-            <p>All Rights Reserved.</p>
-          </div>
-          <div class="legal-info legal-details">
-            <p><strong>Headquarters:</strong> Mun. Iaşi, Str. Muşatini Nr. 23, Bl. V2, Sc. A, Et. 3, Ap. 14</p>
-            <p>Reg. Com: J22/2071/04.07.2023</p>
-            <p>CUI: 48430665 | EUID: ROONRC.J22/2071/2023</p>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <footer></footer>
+    <script src="/footer.js"></script>
   </body>
 </html>
