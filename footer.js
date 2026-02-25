@@ -2,7 +2,7 @@ document.querySelector('footer').innerHTML = `
   <div class="container">
     <div class="footer-content">
       <div class="legal-info">
-        <p>© 2026 SOFTPRIME SOLUTIONS CONCEPT S.R.L.</p>
+        <p>© ${new Date().getFullYear()} SOFTPRIME SOLUTIONS CONCEPT S.R.L.</p>
         <p>All Rights Reserved.</p>
       </div>
       <div class="legal-info legal-details">
